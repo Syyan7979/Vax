@@ -97,7 +97,17 @@ sudo zypper install git
 
 Once you have Git working on your device, you must now get a local clone of the repository. To do this, open your terminal (or Powershell/Command Prompt) and navigate to the folder where you want to place the project using `cd`. 
 
-If you are not comfortable working in the terminal, in **Windows**, you may also do the above by opening the folder where you want to place the project through File Explorer and doing `Shift + Right-click ` on an empty space. This will open a context menu, where you can click "Open PowerShell Window Here" to open the directory inside PowerShell. For **Mac**, you may also do this by drag-and-dropping the folder where you want to put the project to the Terminal icon in the Dock. For **Linux**, some distros might have the right-click context menu similar to Windows while others might not. If your distro doesn't have the context menu, then you will have to make do with `cd`. 
+If you are not comfortable working in the terminal, in **Windows**, you may also do the above by opening the folder where you want to place the project through File Explorer and doing `Shift + Right-click ` on an empty space. This will open a context menu, where you can click "Open PowerShell Window Here" to open the directory inside PowerShell. 
+
+![](https://i.stack.imgur.com/UtB5P.gif)
+
+
+
+For **Mac**, you may also do this by drag-and-dropping the folder where you want to put the project to the Terminal icon in the Dock, or typing `cd` in the Terminal, dragging the folder to the Terminal window, then pressing Enter.  ![](https://www.howtogeek.com/wp-content/uploads/2021/07/folder_drag.mov.gif)
+
+
+
+For **Linux**, some distros might have "Open in Terminal" in their right-click context menu, similar to Windows, while others might not. If your distro doesn't have the context menu, then you can try dragging the folder to your terminal after typing `cd` and pressing Enter. 
 
 Once you have your folder opened in the terminal, you can then clone the project by entering the command below.
 
