@@ -137,7 +137,7 @@ The recommended workflow for this project folder is [Github Flow](https://docs.g
 
 **TL;DR version**
 
-1. When you want to work on a screen, you must first create a feature branch. A **feature branch** is like an environment where you can safely make your changes to the project without overwriting the work of others. You can create a feature branch by opening the project folder in a terminal (you may use the steps in [Initial Clone](###Initial Clone)) and entering the command below. 
+1. When you want to work on a screen, you must first create a feature branch. A **feature branch** is like an environment where you can safely make your changes to the project without overwriting the work of others. You can create a feature branch by opening the project folder in a terminal (you may use the steps in [Initial Clone](https://github.com/Vax-CS192/Vax#initial-clone)) and entering the command below. 
 
    ```
    git checkout -b <insert-branch-name> # Example: git checkout -b Lab
