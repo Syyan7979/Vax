@@ -69,10 +69,8 @@ sudo apt install git
 ##### Fedora
 
 ```
-sudo yum install git # (up to Fedora 21)
-```
-```
 sudo dnf install git # (Fedora 22 and later)
+sudo yum install git # (up to Fedora 21)
 ```
 
 ##### Gentoo
