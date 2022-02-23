@@ -159,20 +159,22 @@ The recommended workflow for this project folder is [Github Flow](https://docs.g
 
    ![Play Scene button](https://docs.godotengine.org/en/stable/_images/nodes_and_scenes_09_play_scene_button.png)
 
-3.  When you've finished your changes, you must commit your changes to your branch. This can be done by entering the following commands in the terminal.
+3. When you've finished your changes, you must commit your changes to your branch. This can be done by entering the following commands in the terminal.
 
    ```
    git add .
    git commit -m <Summary of what you changed>
    ```
 
-   Now, we can upload the changes you made to Github. However, before we can upload your changes, we must make sure that your changes aren't in conflict with the changes that other contributors have made. Thus, run the following command.
+   Now, we can upload the changes you made to Github. However, before we can upload your changes, we must make sure that your changes aren't in conflict with the 
+   changes that other contributors have made. Thus, run the following command.
 
    ```
    git pull --rebase
    ```
 
-   This will synchronize your changes with the repository in Github and output any conflicts that you will have to fix. Once the command doesn't output an error anymore, you may now upload your changes using this command.
+   This will synchronize your changes with the repository in Github and output any conflicts that you will have to fix. Once the command doesn't output an error   
+   anymore, you may now upload your changes using this command.
 
    ```
    git push
